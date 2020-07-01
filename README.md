@@ -1,6 +1,6 @@
 # React Modal X
 
-manage all modals in single place
+manage all modals in one place
 
 ## Install
 
