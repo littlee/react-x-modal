@@ -2,6 +2,25 @@
 
 manage all modals in one place
 
+## motivation
+
+the typical way to render modal in react
+
+- import modal component
+- declare modal in JSX
+- introduce a new state to control the visibility of the modal
+
+this would become tedious when trying to manage multiple modals
+react-modal-x let you open & close modals with a single method call
+and pass other props to modal all at once
+
+```js
+// open
+modal.open('myModal', { a: 'b' });
+// close
+modal.close('myModal');
+```
+
 ## Install
 
 ```bash
