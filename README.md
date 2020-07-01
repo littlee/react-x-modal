@@ -1,4 +1,4 @@
-# React Modal X
+# React X Modal
 
 manage all modals in one place
 
@@ -11,7 +11,7 @@ the typical way to render modal in react
 - introduce a new state to control the visibility of the modal
 
 this would become tedious when trying to manage multiple modals
-react-modal-x let you open & close modals with a single method call
+react-x-modal let you open & close modals with a single method call
 and pass other props to modal all at once
 
 ```js
@@ -24,7 +24,7 @@ modal.close('myModal');
 ## Install
 
 ```bash
-npm i -S react-modal-x
+npm i -S react-x-modal
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ npm i -S react-modal-x
 modal.js
 
 ```js
-import modalX from 'react-modal-x';
+import xModal from 'react-x-modal';
 
 const CommonModalWrap = props => {
   return (
@@ -71,7 +71,7 @@ const ModalB = props => {
   );
 };
 
-const modal = modalX({
+const modal = xModal({
   wrap: CommonModalWrap,
   mapping: {
     modalA: ModalA,
